@@ -13,5 +13,5 @@ The file is setup to point to a build folder within a theme within a WordPress p
 
 ##Usage
 
-The batch file asks for a project slug and then a task to run. It then starts the requested task and opens the folder containing the gruntfile in an explorer window. The default task will run if no task is entered.
+The batch file asks for a project slug and then a task to run. It then starts the requested task and opens the folder containing the Gruntfile in an explorer window. The default task will run if no task is entered.
 
