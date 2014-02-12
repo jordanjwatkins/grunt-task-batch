@@ -8,8 +8,8 @@ The file is setup to point to a build folder within a theme within a WordPress p
 
 ## Installation
 
-- Adjust line 4 (`cd /d c:\wamp\www\projects\%project%\%project%\wp-content\themes\%project%\_build`) to match the path to your projects (`%project%` will be replaced with the project slug you provide)
-- If the batch file is only going to point to one specific project you can remove line 3 (`SET /P project="Project Slug: "`) and setup the path to the project without using `%project%`
+- Adjust line 4 (`cd /d c:\wamp\www\projects\%project%\%project%\wp-content\themes\%project%\_build`) to match the path to your Gruntfile (`%project%` will be replaced with the project slug you provide)
+- If the batch file is only going to point to the Gruntfile for one specific project you can remove line 3 (`SET /P project="Project Slug: "`) and setup the path to the project without using `%project%`
 
 ##Usage
 
